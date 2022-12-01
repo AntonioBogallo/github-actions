@@ -5,6 +5,9 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - id: step-zero
-       name: Bogallo
+       name: Saluda
        run: |
          echo "Hello chavales! $(date)"
+     - name: step-one
+       run: |
+         echo "Hola Edu!"
